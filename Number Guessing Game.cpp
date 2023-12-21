@@ -30,7 +30,7 @@ int main()
 			{
 				cout << "\n\tYour number is lower than the guess number.";
 			}
-			else if(userguess>guessnumber)
+			else
 			{
 				cout << "\n\tYour number is higher than the guess number.";
 			}
