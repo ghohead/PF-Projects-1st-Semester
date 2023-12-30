@@ -5,32 +5,26 @@ using namespace std;
 int main()
 
 {
-	
 	int parentvar, childvar;
 	parentvar = 0;
 	
-	while(parentvar!=5)
+	while(parentvar!=6)
 	{
 		childvar=-1;
-		cout<<"\n*\n";
 		
 		while(childvar!=parentvar)
 		{
-			cout<<"**";
+			cout<<"*";
+			if(parentvar%2==0)
+			{
+			    break;
+			}
 			childvar++;
-		
 		}
 		
+		cout<<"\n";
 		parentvar++;
-		
-		if(parentvar==3)
-		{
-			break;
-		}
-	
 	}
-	
-	
 	
 	return 0;
 	
