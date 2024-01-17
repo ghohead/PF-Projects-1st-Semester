@@ -1,0 +1,28 @@
+Functions:
+
+Explanation:
+
+//Syntax:
+
+datatype functionname (input){ //Prototype
+    statements;
+    return variable; //The value of variable is returned when function is called.
+}
+
+//Practical Example:
+
+int sum(int a, int b){
+    int c;
+    c = a+b;
+}
+
+int main(){    
+    int x, y, z;
+    cin>>x>>y;
+    z = sum(x, y);
+    cout<<z;
+}
+
+//Note:
+
+Function overloading refers to having multiple instances of the same function but with different parameters. sequence or datatype.
